@@ -30,8 +30,7 @@
 
 ### What I learned
 
-On thius project was the first time i implemented SASS the CSS preprocessor and CSS variables.
-
+On this project was the first time i implemented SASS a CSS preprocessor and CSS variables.
 
 ```css
 :root {
