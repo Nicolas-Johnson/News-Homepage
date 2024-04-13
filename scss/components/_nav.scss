@@ -1,0 +1,43 @@
+.nav {
+
+    button {
+        background: none;
+        border: none;
+        padding: 0;
+
+        @media (width >= 69.375em) {
+            display: none;
+
+        }
+    }
+
+
+    &__open {}
+
+    &__content {
+        @media (width < 69.375em) {
+            display: none;
+            position: fixed;
+            inset: 0 0 0 7.5rem;
+            background-color: var(--c-white);
+            padding: 1.875rem;
+            translate: 100vw 0;
+            transition: translate 0.5s ease-in-out;
+        }
+    }
+
+    &__close {
+        display: block;
+        margin-inline-start: auto;
+        margin-block-end: 5.373rem;
+    }
+
+    &__overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background-color: var(--c-blue);
+        opacity: 0.5;   
+        transition: opacity 0.3s ease-in-out;
+    }
+}
