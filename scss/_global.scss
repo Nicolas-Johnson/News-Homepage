@@ -81,4 +81,10 @@ img {
     display: grid;
     gap: 4rem;
 
+    @media (width >= 69.375em) {
+        grid-template-columns: repeat(3, 1fr);   
+        grid-template-rows: 18.75rem auto auto;  
+        gap: 1.875rem;   
+    }
+
 }

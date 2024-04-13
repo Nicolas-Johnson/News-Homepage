@@ -2,6 +2,21 @@
     display: grid;
     gap: 1.5rem;
 
+    @media (width >= 69.375em) {
+        gap: 1.875rem;
+        grid-template-columns: subgrid;
+        grid-template-rows: subgrid;
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+    }
+
+    &__picture {
+        @media (width >= 69.375em) {
+            grid-column: 1 / 3;
+        }
+
+    }
+
     &__img {
 
     }
@@ -13,6 +28,9 @@
     }
 
     &__description {
+        p {
+           margin-block-end: 1.875rem;
+        }
 
     }
 

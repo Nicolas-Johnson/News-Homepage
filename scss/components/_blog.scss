@@ -2,6 +2,13 @@
     display: grid;
     gap: 1.875rem;
 
+    @media (width >= 69.375em) {
+        grid-template-columns: subgrid;
+        grid-column: 1 / -1;
+        padding-block-start: 2.5rem;
+
+    }
+
     &__item {
         display: grid;
         grid-template-columns: 6.25rem auto;
