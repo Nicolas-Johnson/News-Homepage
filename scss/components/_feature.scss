@@ -16,6 +16,13 @@
     }
 
     &__button {
-
+        display: inline-block;
+        background-color: var(--c-red);
+        color: var(--c-white);
+        font-size: 0.875rem;
+        letter-spacing: 0.31em;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 0.75rem 2rem;
     }
 }
