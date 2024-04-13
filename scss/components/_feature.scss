@@ -1,5 +1,6 @@
 .feature {
-
+    display: grid;
+    gap: 1.5rem;
 
     &__img {
 
@@ -16,6 +17,7 @@
     }
 
     &__button {
+        justify-self: start;
         display: inline-block;
         background-color: var(--c-red);
         color: var(--c-white);

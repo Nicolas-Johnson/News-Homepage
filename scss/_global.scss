@@ -62,17 +62,23 @@ li {
     list-style-type: none;
 }
 
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+//End of boyllerplate styles
+
+
 // Sets the minimum width to 1110px or (100vw - 32px), whatever is smaller
 .wrapper {
     width: min(1110px, calc(100% - 2rem));
     margin-inline: auto; //Sets onli the left & right margin (margin-block sets only the top & bottom)
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+.grid {
+    display: grid;
+    gap: 4rem;
+
 }
-
-//End of boyllerplate styles
-
