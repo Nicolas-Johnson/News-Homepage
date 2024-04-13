@@ -1,0 +1,18 @@
+@use '../util' as u;
+
+.header {
+
+    &__logo {
+        width: u.rem(45);
+
+        @media (width >= 1110px) {
+            width: u.rem(64);
+
+        }
+    }
+
+    &__link {
+        color: var(--c-blue);
+        font-size: u.rem(18);
+    }
+}
