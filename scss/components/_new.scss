@@ -1,0 +1,33 @@
+.new {
+    background-color: var(--c-blue);
+    padding: 1.5rem 1.25rem;
+
+    &__title {
+        font-size: clamp(2rem, 1.823943661971831rem + 0.7511737089201878vw, 2.5rem);
+        color: var(--c-yellow);
+    }
+
+    &__post {
+        padding-block: 1.875rem;
+        border-block-end: 1px solid var(--c-gray);
+
+        &:last-child {
+            border: none;
+        }
+
+    }
+
+    &__headline {
+        font-size: var(--f-s);
+        font-weight: 800;
+        margin-block-end: 0.5rem;
+        color: var(--c-white);
+
+    }
+
+    &__description {
+        font-size: inherit;
+        color: var(--c-silver);
+
+    }
+}
