@@ -1,11 +1,25 @@
 .header {
 
+    @media (width >= 69.375em) {
+        display: flex;
+        justify-content: space-between;
+        padding-block: 5.625rem 3.438rem;
+    }
+    
+
     &__logo {
         width: 2.813rem;
 
         @media (width >= 1110px) {
             width: 4rem;
 
+        }
+    }
+
+    &__links {
+        @media (width >= 69.375em) {
+            display: flex;
+            gap: 2.5rem;
         }
     }
 
@@ -16,6 +30,11 @@
 
         @media (width >= 1110px) {
             color: var(--c-gray);
+        }
+
+        &:hover {
+            color: var(--c-red);
+            cursor: pointer;
         }
 
     }
