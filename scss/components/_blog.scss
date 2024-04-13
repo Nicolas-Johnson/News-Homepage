@@ -1,0 +1,39 @@
+.blog {
+    display: grid;
+    gap: 1.875rem;
+
+    &__item {
+        display: grid;
+        grid-template-columns: 6.25rem auto;
+        grid-template-rows: repeat(3, auto);
+        gap: 0.625rem 1.5rem;
+    }
+
+    &__img {
+        grid-row: 1 / 4;
+
+    }
+
+    &__number {
+        color: var(--c-silver);
+        font-size: var(--f-m);
+        font-weight: 700;
+        line-height: 1;
+
+    }
+
+    &__headline {
+        align-self: centerf;
+
+        a {
+            color: var(--c-blue);
+            font-size: var(--f-xs);
+            font-weight: 800;
+            line-height: 1.1;
+        }
+    }
+
+    &__description {
+        align-self: end;
+    }
+}
